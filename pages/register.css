@@ -28,15 +28,15 @@
 main{
     background: url(./img/img-register-login.jpg) no-repeat center top;
     background-size:auto;
-    height: 100vh;
+    height: 120vh;
 }
 
 .login-contenedor{
-    width: 300px;
-    height: 600px;
+    width: 400px;
+    height: 700px;
     background: var(--grey);
     color: var(--white1);
-    top: 50%;
+    top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -129,7 +129,6 @@ main{
 .boton-submit:hover{
     background-color: #a945c7;
     box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
-    transition-delay: 1s;
 }
 
 .boton-submit span{
